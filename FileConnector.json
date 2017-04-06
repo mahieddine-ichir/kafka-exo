@@ -1,0 +1,9 @@
+{
+	"name" : "FileStreamSinkConnector",
+	"config": {
+		"connector.class" : "org.apache.kafka.connect.file.FileStreamSinkConnector",
+		"topics": "TopicName_FileStreamSinkConnector",
+		"tasks.max": "1",
+		"file": "server.log"
+	}
+}
