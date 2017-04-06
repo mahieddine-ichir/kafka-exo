@@ -12,7 +12,7 @@ public class AppConfiguration {
 
 
     //<!> CHANGE ME PLEASE <!>
-    public static String URL_BASE = "52.213.210.70"; //"localhost"//192.168.99.100
+    public static String URL_BASE = "localhost"; //"localhost"//192.168.99.100
 
     public static String BOOTSTRAP_SERVERS_CONFIG = URL_BASE + ":9092";
     public static String SCHEMA_REGISTRY = "http://" + URL_BASE + ":8081";
